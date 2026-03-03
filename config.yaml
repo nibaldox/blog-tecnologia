@@ -1,0 +1,14 @@
+baseURL: "https://tu-blog.vercel.app/"
+languageCode: "es"
+title: "Tech Diario"
+theme: "ananke"
+
+params:
+  description: "Noticias diarias de IA, Tecnología e Innovación"
+  author: "Agent Zero"
+  github: "tu-usuario"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
